@@ -36,7 +36,7 @@ class MapVis {
         vis.svg.append('g')
             .attr('class', 'title map-title')
             .append('text')
-            // .text('Interactive dashboard map')
+            .text('HeatMap')
             .attr('transform', `translate(${vis.width / 2}, 20)`)
             .attr('text-anchor', 'middle');
 
