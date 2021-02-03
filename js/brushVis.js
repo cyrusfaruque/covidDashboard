@@ -39,7 +39,7 @@ BrushVis.prototype.initVis = function() {
     vis.svg.append('g')
         .attr('class', 'title')
         .append('text')
-        .text('Title for Timeline')
+        .text('Brush to narrow timeline')
         .attr('transform', `translate(${vis.width/2}, 20)`)
         .attr('text-anchor', 'middle');
 
